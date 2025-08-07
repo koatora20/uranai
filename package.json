@@ -1,0 +1,24 @@
+{
+  "name": "horoscope-bot",
+  "version": "1.0.0",
+  "description": "Discord horoscope bot with DeepL translation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test_horoscope.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "horoscope",
+    "bot",
+    "deepl"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "deepl-node": "^1.19.0",
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}
